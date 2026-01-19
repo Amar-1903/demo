@@ -143,6 +143,12 @@
                             <input matInput placeholder="Enter Remarks"> </mat-form-field> </th>
                 </ng-container>
 
+
+                <ng-container matColumnDef="remarksfilter">
+                    <th mat-header-cell *matHeaderCellDef> <mat-form-field appearance="outline" class="half-width">
+                            <input matInput placeholder="Enter Remarks"> </mat-form-field> </th>
+                </ng-container>
+                
                 <tr mat-header-row *matHeaderRowDef="columns"></tr>
 
                 <tr mat-header-row *matHeaderRowDef="filterColumns" class="filter-field-row"
